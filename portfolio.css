@@ -1,0 +1,113 @@
+body{
+    background-color:  rgb(245, 232, 232);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    transition: all 4s ease;
+}
+h1:hover{
+    text-decoration:underline ;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+  padding: 5px;
+  font-weight:bold;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  color: blueviolet;
+}
+nav a:hover{
+background-color: blueviolet;
+color: white;
+}
+section{
+    background-color:rgb(244, 244, 245);
+    width: 800px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 13px black;
+}
+hr{
+    margin:30px auto;
+    width: 800px;
+    border: 2px solid black;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%;
+    border: 3px solid brown;
+}
+figure img:hover{
+    box-shadow: 0 5px 13px black;
+}
+figcaption{
+    font-size: 20px;
+}
+section ul{
+    text-align: center;
+}
+section h2{border-bottom:2px brown solid;
+    padding-bottom: 10px;
+}
+article{
+    background-color:rgb(242, 201, 201);
+    padding:20px;
+    margin:20px;
+    border-left: 4px solid brown;
+    border-radius: 10px;
+    transform: all 4s ease;
+}
+h3{
+    font-size: 30px;
+}
+summary{
+    font-size: 20px;
+}
+li{
+    background-color: rgb(242, 201, 201);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+ul,ol{
+    list-style-type: none;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width:100%;
+    margin: 8px;
+}
+button{
+    background-color: rgb(234,177,177);
+    color: white;
+    padding: 10px;
+    margin-left: 25px
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+article:hover{
+    transform: translateY(10px);
+}
+h1:hover{
+    transform: scale(1.5);
+}
